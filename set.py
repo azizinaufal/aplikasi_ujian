@@ -1,0 +1,12 @@
+buah = {"jeruk", "apple", "pisahng"}
+print(buah)
+
+buah.add("mangga")
+buah.add("mangga")
+print(buah)
+
+buah.remove("jeruk")
+print(buah)
+
+for x in buah:
+    print(x)
